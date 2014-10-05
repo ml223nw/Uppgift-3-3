@@ -1,1 +1,16 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+body {
+	alignment-adjust:middle;
+}
+
+#container {
+    background-color:#eae7d2;
+    border:solid;
+    border-width:1px;
+    border-color:#cecab9;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+	}
+    
