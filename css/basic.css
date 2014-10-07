@@ -15,12 +15,80 @@ body {
 	}
 	
 #topbar {
+    height:227px;
     text-align:right;
     color:#eae7d2;
+    font-family:"Verdana";
+    font-size:10px;
     font-style:italic;
 	background-color:#51473d;
 	background-image: url('/css/pics/coffey.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	height:237px;
     }
+
+/* Top, right, bottom, left */    
+#menu {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    background-color:#51473d;
+}    
+    
+#menu > a {
+    display:none;
+}
+    
+#menu li {
+    list-style-type: none;
+    display: inline;
+    }
+    
+    
+#menu ul {
+    margin-top:0px;
+    margin-bottom:0px;
+    }
+    
+#menu  a:link, a:visited {
+    margin-left:auto;
+    margin-right:auto;
+    font-family:"Verdana", "Times New Roman";
+    font-size:14px;
+    color: #FFFFFF;
+    background-color:#797066;
+    width: 140px;
+    text-align: center;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    text-transform:lowercase;
+    font-weight: lighter;
+}
+
+#menu a:active {background:#eae7d2;}
+
+#menu a:hover {background:#9c9084;}
+    
+#content {
+    margin-left:10px;
+    margin-right:10px;
+}    
+    
+#maincontent  {
+    font-family:"Verdana", "Times New Roman";
+    color:#797066;
+}
+
+#maincontent h1 {
+    font-weight: lighter;
+    font-family:"Verdana", "Times New Roman";
+    color:#797066;
+}
+
+#maincontent p {
+    font-weight: lighter;
+}
