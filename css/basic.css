@@ -29,35 +29,34 @@ body {
 
 /* Top, right, bottom, left */    
 #menu {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 7px;
-    padding-left: 0px;
+	height: 27px;
     background-color:#51473d;
-}    
+}   
     
 #menu > a {
     display:none;
 }
     
 #menu li {
+    float:left;
+    color:#eae7d2;
     list-style-type: none;
-    display: inline;
+    display:block;
     }
     
     
 #menu ul {
-    margin-top:0px;
-    margin-bottom:0px;
+    margin-left: -9px;
+    text-indent:-2%;
+    display: inline-block;
+	margin-top:2px;
     }
     
-#menu  a:link, a:visited {
-    margin-left:auto;
-    margin-right:auto;
+#menu a:link, a:visited {
     font-family:"Verdana", "Times New Roman";
     font-size:14px;
-    color: #FFFFFF;
     background-color:#797066;
+    color:#eae7d2;
     width: 140px;
     text-align: center;
     padding-left:16px;
@@ -69,26 +68,95 @@ body {
     font-weight: lighter;
 }
 
-#menu a:active {background:#eae7d2;}
+.active {
+    color:#888076;
+}
 
-#menu a:hover {background:#9c9084;}
-    
+.active a {
+    color:#888076;
+	background-color: #eae7d2;
+}
+
+#menu a:hover {
+    background-color:#9c9084;
+}
+  
 #content {
-    margin-left:10px;
-    margin-right:10px;
-}    
+    height:370px;
+	background-color: #eae7d2;
+	padding-top: 15px;
+}
     
 #maincontent  {
+    margin-left:10px;
+    margin-right:10px;
     font-family:"Verdana", "Times New Roman";
     color:#797066;
 }
 
 #maincontent h1 {
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:24px;
     font-weight: lighter;
     font-family:"Verdana", "Times New Roman";
     color:#797066;
 }
 
+#maincontent img {
+	float: left;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
 #maincontent p {
+    margin-right: 10px;
+    line-height: 187%;
+    font-size:12px;
     font-weight: lighter;
+}
+
+#maincontent {
+	display: inline-block;
+	width: 61%;
+	float: left;
+	padding-right: 0.5%;
+	border-right: dashed 1px;
+}
+
+#subcontent ul {
+	list-style: none;
+}
+#subcontent h1 {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #51473d;
+}
+#subcontent h2 {
+	font-size: 15px;
+	font-weight: lighter;
+	color: #51473d;
+}
+#subcontent p {
+    margin-right: 10px;
+	font-size: 11px;
+	font-weight: lighter;
+	line-height: 200%;
+}
+#subcontent a {
+	color: #51473d;
+}
+#subcontent a:visited{
+	color: #51473d;
+}
+
+#bottomcontent {
+    margin-left:20px;
+    margin-right:10px;
+    float:right;
+	font-style : italic;
+	width: 97%;
+	margin-top: 0px;
+	color: #937066;
+	font-size: 12px;
 }
