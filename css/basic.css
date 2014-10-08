@@ -38,6 +38,8 @@ body {
 }
     
 #menu li {
+    margin-left:0.4px;
+    margin-right:0.4px;
     float:left;
     color:#eae7d2;
     list-style-type: none;
@@ -46,8 +48,7 @@ body {
     
     
 #menu ul {
-    margin-left: -9px;
-    text-indent:-2%;
+    margin-left: -29px;
     display: inline-block;
 	margin-top:2px;
     }
